@@ -23,6 +23,6 @@ shift
 echo Controllo file $file
 for i in $* #controllo le sole stringhe passate come argomenti
 do
-    count='grep "$i" "$file" | wc -l'
+    count=`grep "$i" "$file" | wc -l`
     echo "Parametro: $i - Ricorrenze: $count"
 done
