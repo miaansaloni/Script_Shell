@@ -5,7 +5,7 @@
 while true
 do
     #lettura pattern
-    eho "Scrivi il nome del file inserisci 'fine' per uscire":
+    echo "Scrivi il nome del file inserisci 'fine' per uscire":
     read nomefile
     if test "$nomefile" = fine;
     then
