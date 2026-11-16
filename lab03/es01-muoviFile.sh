@@ -68,7 +68,7 @@ export PATH
 >/tmp/.counter.tmp
 
 #chiamata ricorsiva
-muoviFile.sh $num "$sorg" "$dest" $*
+es01-ricerca.sh $num "$sorg" "$dest" $*
 echo `wc -l < /tmp/.counter.tmp`
 
 #rimozione del file temporaneo per pulizia

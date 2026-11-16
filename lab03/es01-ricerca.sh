@@ -30,6 +30,6 @@ for dir in *
 do
     if test -d "$dir" -a -x "$dir"
     then
-        ricerca.sh $num "$dir" "$dest" $*
+        es01-ricerca.sh $num "$dir" "$dest" $*
     fi
 done
